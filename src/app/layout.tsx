@@ -43,8 +43,8 @@ export default function RootLayout({
       lang="fr"
       className={`${sora.variable} ${jakarta.variable} ${plexMono.variable} h-full`}
     >
-      <body className="min-h-full flex justify-center bg-(--color-desk-bg) sm:py-8">
-        <div className="relative flex w-full max-w-[430px] min-h-dvh flex-col overflow-hidden bg-white sm:min-h-[844px] sm:rounded-(--radius-sheet) sm:shadow-[0_24px_60px_rgba(31,42,99,0.18),0_2px_8px_rgba(0,0,0,0.08)]">
+      <body className="flex min-h-dvh justify-center bg-deskbg sm:py-8">
+        <div className="relative flex h-dvh w-full max-w-[430px] flex-col overflow-hidden bg-white sm:h-[844px] sm:rounded-sheet sm:shadow-[0_24px_60px_rgba(31,42,99,0.18),0_2px_8px_rgba(0,0,0,0.08)]">
           {children}
         </div>
       </body>
